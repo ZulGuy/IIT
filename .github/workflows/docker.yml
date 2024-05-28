@@ -20,10 +20,10 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker image
-      run: docker build -t lab4 .
+      run: docker build -t lab6 .
 
     - name: Tag Docker image
-      run: docker tag lab4 zulguy/lab4:latest
+      run: docker tag lab6 zulguy/lab6:latest
 
     - name: Push Docker image to Docker Hub
-      run: docker push zulguy/lab4:latest
+      run: docker push zulguy/lab6:latest

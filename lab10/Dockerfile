@@ -1,6 +1,6 @@
 FROM node:22-alpine
 
-WORKDIR /home/node/myapp
+WORKDIR C:/Users/frost/git_repositories/IIT/lab10
 
 COPY --chown=node package*.json ./
 

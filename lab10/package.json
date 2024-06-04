@@ -1,0 +1,19 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env index.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fluent-org/logger": "^1.0.10",
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "prom-client": "^15.1.2"
+  }
+}
